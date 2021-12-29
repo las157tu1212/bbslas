@@ -3,7 +3,6 @@
   //DB接続
   require_once('../db_connect.php');
   dbconnection();
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
