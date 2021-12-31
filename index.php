@@ -20,6 +20,7 @@
   
 <?php
 require 'vendor/autoload.php';
+
 $email = new SendGridMailMail();
 $email->setFrom("test@example.com", "送信者A");
 $email->setSubject("TestMail漢字");
