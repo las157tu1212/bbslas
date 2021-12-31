@@ -19,7 +19,7 @@
   <a href="php/main.php">メインページ</a>
   
 <?php
-require 'vendor/autoload.php';
+require_once('../vendor/autoload.php');
 
 $email = new SendGridMailMail();
 $email->setFrom("test@example.com", "送信者A");
