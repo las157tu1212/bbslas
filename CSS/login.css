@@ -11,12 +11,8 @@ div{
   position: relative;
 }
 
-#wrap{
-
-}
-
 input{
-  width: 500px;
+  width: 60%;
   margin-top: 30px;
   padding: 15px;
   border-radius: 5px;
@@ -28,7 +24,7 @@ input{
 #wrap_input{
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 60%;
   margin-top: 10px;
   background-color: rgb(246, 155, 50);
   border: rgb(251, 144, 56) solid 3px;
@@ -38,7 +34,7 @@ input{
 
 #login_submit{
   cursor: pointer;
-  margin-left: 580px;
+  margin-left: 70%;
   padding: 10px 10px;
   display: block;
   margin-top: 15px;
@@ -58,7 +54,7 @@ input{
 .label{
   position: absolute;
   top: 35px;
-  left: 155px;
+  left: 20%;
   font-size: 16px;
   color: #a0a0a0;
   transition: all 0.25s ease;
