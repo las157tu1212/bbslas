@@ -1,7 +1,7 @@
 <?php
   session_start();
   //DB接続
-  require_once('C:\Users\user\bbslas\db_connect.php');
+  require_once('../db_connect.php');
   dbconnection();
 ?>
 
@@ -36,7 +36,7 @@
 
     <button type="submit" id="login_submit">ログイン</button>
   </form>
-    <p>新規登録は<a href="C:\Users\user\bbslas\View\sign_up.php">こちら</a>から</p>
+    <p>新規登録は<a href="..\View\sign_up.php">こちら</a>から</p>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="../JS/login.js"></script>
