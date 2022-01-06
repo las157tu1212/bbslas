@@ -1,0 +1,70 @@
+
+.logo{
+  background-color: coral;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+div{
+  position: relative;
+}
+
+#wrap{
+
+}
+
+input{
+  width: 500px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+#wrap_input{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 10px;
+  background-color: rgb(246, 155, 50);
+  border: rgb(251, 144, 56) solid 3px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+#login_submit{
+  cursor: pointer;
+  margin-left: 580px;
+  padding: 10px 10px;
+  display: block;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(92, 55, 7);
+  background-color: rgb(255, 239, 148);
+  border-bottom:solid 4px  rgb(197, 160, 60);
+}
+
+#login_submit:active{
+  margin-top: 19px;
+  position: relative;
+  border-bottom: none;
+}
+
+.label{
+  position: absolute;
+  top: 35px;
+  left: 155px;
+  font-size: 16px;
+  color: #a0a0a0;
+  transition: all 0.25s ease;
+}
+
+.focus{
+  transform: translateY(-28px);
+  color: white;
+}

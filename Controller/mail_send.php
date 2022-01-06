@@ -1,7 +1,7 @@
 <?php
   session_start();
   //DB接続
-  require_once('../db_connect.php');
+  require_once('C:\Users\user\bbslas\db_connect.php');
   dbconnection();
 ?>
 <!DOCTYPE html>

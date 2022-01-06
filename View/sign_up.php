@@ -1,7 +1,7 @@
 <?php
   session_start();
   //DB接続
-  require_once('db_connect.php');
+  require_once('C:\Users\user\bbslas\db_connect.php');
   dbconnection();
 ?>
 <!DOCTYPE html>
@@ -60,6 +60,6 @@
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="../js/sign_up.js"></script>
+    <script type="text/javascript" src="C:\Users\user\bbslas\JS\sign_up.js"></script>
   </body>
 </html>
